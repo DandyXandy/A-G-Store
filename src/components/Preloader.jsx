@@ -56,7 +56,7 @@ export default function Preloader() {
               transition={{ duration: 1, delay: 0.2 }}
               className="text-[9px] md:text-[10px] text-zinc-500 font-black tracking-[0.6em] uppercase mt-4 text-center pl-[0.6em]"
             >
-              ALONSO GARCIA
+              OFC
             </motion.span>
           </motion.div>
         </div>
