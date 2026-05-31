@@ -72,7 +72,7 @@ export const products = [
   {
     id: 4,
     name: "CONJUNTO TECH PROMO BLUE",
-    price: "S/ 85.99",
+    price: "S/ 145.00",
     oldPrice: "S/ 260,00", 
     color: "CHROME BLUE & BLACK",
     category: "COMBOS",
