@@ -15,7 +15,7 @@ export default function AnnouncementBar() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % messages.length);
-    }, 4500); // Un tempo ligeramente más lento para mejorar la legibilidad del tracking largo
+    }, 4500); 
     return () => clearInterval(timer);
   }, []);
 
@@ -34,7 +34,6 @@ export default function AnnouncementBar() {
         </motion.p>
       </AnimatePresence>
       
-      {/* Luces de ambiente moradas en los extremos estilo pasarela */}
       <div className="absolute left-0 w-24 h-full bg-gradient-to-r from-[#8B5CF6]/10 to-transparent pointer-events-none"></div>
       <div className="absolute right-0 w-24 h-full bg-gradient-to-l from-[#8B5CF6]/10 to-transparent pointer-events-none"></div>
     </div>

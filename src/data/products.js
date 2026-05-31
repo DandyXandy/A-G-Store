@@ -120,7 +120,7 @@ export const products = [
   {
     id: 6,
     name: "CAMISETA ACTIVE COUTURE PUMA",
-    price: "S/ 39.99",
+    price: "S/ 90.00",
     oldPrice: "S/ 60,00", 
     color: "ELECTRIC BLUE",
     category: "COMBOS",
